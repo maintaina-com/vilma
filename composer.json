@@ -21,12 +21,15 @@
     ],
     "require": {
         "horde/horde-installer-plugin": "dev-master",
-        "php": "^5.3"
+        "php": "^7.3"
     },
     "suggest": {},
     "autoload": {
         "psr-0": {
             "Vilma": "lib/"
+        },
+        "psr-4": {
+            "Horde\\Vilma\\": "src/"
         }
     },
     "bin": [
